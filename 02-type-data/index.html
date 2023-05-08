@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navigasi ul li a.hm {
+            border-bottom: solid 3px #04AA6D;
+        }
+    </style>
+    <title>Type Data</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="header">
+            <h1>JavaScript</h1>
+        </div>
+
+        <div class="navigasi">
+            <ul>
+                <li><a href="../content/index.html">❮ Content</a></li>
+                <li><a href="#" class="hm">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="image" title="From : Ingo Schulz"></div>
+
+        <div class="main">
+
+            <h2>Type Data</h2>
+            <p class="by">Ditulis oleh <a href="#">myusuf</a>, pada 19 Januari 2023.</p>
+
+
+            <h4>JavaScript has 8 DataTypes</h4>
+            <ul class="decimal">
+                <li>Number</li>
+                <li>String</li>
+                <li>Boolean</li>
+                <li>Object</li>
+                <li>Function</li>
+                <li>Undefined</li>
+                <li>Null</li>
+                <li>Symbol</li>
+            </ul>
+
+            <h4>The Object Datatype</h4>
+
+            <p>The object data type can contain :</p>
+            <ul class="decimal">
+                <li>An object</li>
+                <li>An array</li>
+                <li>A date</li>
+            </ul>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="silver">// Numbers</span><br>
+                    <span class="ungu">let</span>
+                    <span>width</span>
+                    <span>=</span>
+                    <span class="blue">940px</span>; <br>
+                    <span class="ungu">let</span>
+                    <span>height</span>
+                    <span>=</span>
+                    <span class="blue">450px</span>;
+                    <br><br>
+
+                    <span class="silver">// String</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">color</span>
+                    <span>=</span>
+                    <span class="green">"bluee"</span>;<br>
+                    <span class="ungu">let</span>
+                    <span class="oren">name</span>
+                    <span>=</span>
+                    <span class="green">"myusuf"</span>;
+                    <br><br>
+
+                    <span class="silver">// Booleans</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="ungu">true</span>;<br>
+                    <span class="ungu">let</span>
+                    <span class="oren">y</span>
+                    <span>=</span>
+                    <span class="ungu">false</span>;
+                    <br><br>
+
+                    <span class="silver">// Object</span><br>
+                    <span class="ungu">const</span>
+                    <span class="oren">person</span>
+                    <span>=</span>
+                    {<span class="blue">fistName</span>:<span class="green">"myusuf"</span>,
+                    <span class="blue">lastName</span>:<span class="green">kencuss</span>;};
+                    <br><br>
+
+                    <span class="silver">// Array object</span><br>
+                    <span class="ungu">const</span>
+                    <span class="oren">montor</span>
+                    <span>=</span>
+                    [<span class="green">"Supra"</span>,
+                    <span class="green">"Kaoto"</span>,
+                    <span class="green">"Prima"</span>];
+                    <br><br>
+                    
+                    <span class="silver">// Date object</span><br>
+                    <span class="ungu">const</span>
+                    <span class="oren">date</span>
+                    <span>=</span>
+                    <span class="ungu">new</span>
+                    <span class="oren">Date</span><span class="green">"2023-1-19"</span>
+                    <br><br>
+                </div>
+            </div>
+
+
+            <hr>
+
+            <h3>The Concept of Data Type</h3>
+
+            <p>Dalam pemrograman, tipe data adalah konsep penting.</p>
+            <p>Untuk dapat mengoperasikan variabel, penting untuk mengetahui sesuatu tentang tipenya.</p>
+            <p>Tanpa tipe data, komputer tidak dapat menyelesaikan ini dengan aman :</p>
+
+            <div class="exsample">
+                <h4>Syintax</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">19</span>
+                    <span>+</span>
+                    <span class="green">"Honda"</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// 19Honda</span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="green">"12"</span>
+                    <span>+</span>
+                    <span class="green">"Honda"</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// 12Honda</span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">10</span>
+                    <span>+</span>
+                    <span class="blue">7</span>
+                    <span>+</span>
+                    <span class="green">"Honda"</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// 17Honda</span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="green">"Honda"</span>
+                    <span>+</span>
+                    <span class="blue">11</span>
+                    <span>+</span>
+                    <span class="blue">3</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// Honda113</span>
+                    <br>
+                    <span class="silver">(karena awalnya string, maka yang di belakang dianggap string.)</span>
+                </div>
+                <p><b>Note</b> : Saat menggunakan angka dan string, JS akan memperlakukan angka sebagai string.</p>
+            </div>
+
+            <hr>
+
+            <h3>JavaScript Number</h3>
+
+            <P>Semua nomor JavaScript disimpan sebagai angka desimal (floating point) angka yang dapat ditampung JS hanya 64 Bit.</P>
+            <p>JavaScript mendukung number notation, defaultnya ada basis 10, JavaScript juga mendukung hexsadecimal, binary, dan octal.</p>
+            <p>Penulisan :</p>
+            <ul>
+                <li>
+                    Hexsadecimal&nbsp;&nbsp;: 0xff
+                    <span class="silver" style="margin-left: 70px;">// diawali dengan nol dan x</span>
+                </li>
+                <li>
+                    Binary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0b10101
+                    <span class="silver" style="margin-left: 30px;">&nbsp;// diawali dengan nol dan b</span>
+                </li>
+                <li>
+                    Octal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0o10
+                    <span class="silver" style="margin-left: 50px;">&nbsp;&nbsp;// diawali dengan nol dan o</span>
+                </li>
+            </ul>
+            <p>Angka dapat ditulis dengan, atau tanpa desimal :</p>
+
+            <h4>Decimal</h4>
+
+            <ul class="">
+                <li>Bilangan Decimal tidak akurat.</li>
+                <li>Maksimal 17 digit di belakakng koma.</li>
+            </ul>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">x1</span>
+                    <span>=</span>
+                    <span class="blue">0.7</span>
+                    <span>+</span>
+                    <span class="blue">0.3</span>;<br>
+                    <span class="green">Output :</span><span class="blue">1</span>
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x2</span>
+                    <span>=</span>
+                    <span class="blue">0.2</span>
+                    <span>+</span>
+                    <span class="blue">0.1</span>;<br>
+                    <span class="green">Output :</span><span id="deci" class="blue"></span>
+                </div>
+            </div>
+
+
+            <h4>Tanpa Decimal</h4>
+            <ul>
+                <li>Tingkat akurasi hingga 15 digit.</li>
+                <li>Jangan menambahkan angka 0 diawal, akan menyebabkan Error.</li>
+            </ul>
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">y1</span>
+                    <span>=</span>
+                    <span class="blue">9999999999999999</span>;<br>
+                    <span class="green">Output :</span><span id="demo" class="blue"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">y2</span>
+                    <span>=</span>
+                    <span class="blue">365.00</span>;<br>
+                    <span class="green">Output :</span><span class="blue">365</span>
+                </div>
+            </div>
+
+            <h4>Exponen</h4>
+
+            <ul>
+                <li>Bilangan ekstra besar atau ekstra kecil dapat ditulis dengan notasi eksponen.</li>
+                <li>"e" sebagai "0", angka di belangkanya dianggap sebagai jumlah "0".</li>
+            </ul>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">z1</span>
+                    <span>=</span>
+                    <span class="blue">9752e5</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="expo"></span>
+                    <br><br>
+                    <span class="silver">// Eksponen negatif</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">z2</span>
+                    <span>=</span>
+                    <span class="blue">7952e-7</span>;<br>
+                    <span class="green">Output :</span><span id="nen" class="blue"></span>
+
+                    <br><br>
+                    <span class="silver">// Error karena dianggap bilangan oktal.</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">y3</span>
+                    <span>=</span>
+                    <span class="blue">022</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="zero"></span>
+
+                    <br><br>
+                    <span class="silver">// Error karena dianggap bilangan hexadecimal.</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">y3</span>
+                    <span>=</span>
+                    <span class="blue">0xff</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="zer"></span>
+                </div>
+            </div>
+
+            <h4>Angka spesial</h4>
+            <ul>
+                <li>infinity</li>
+                <li>-infinity</li>
+                <li>NaN = Not a Namber</li>
+            </ul>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">za</span>
+                    <span>=</span>
+                    <span class="blue">368</span>
+                    <span>/</span>
+                    <span class="blue">0</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="infi"></span>
+                    
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">zb</span>
+                    <span>=</span>
+                    <span class="blue">-685</span>
+                    <span>/</span>
+                    <span class="blue">0</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="min"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">zc</span>
+                    <span>=</span>
+                    <span class="blue">0</span>
+                    <span>/</span>
+                    <span class="blue">0</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="nol"></span>
+                    
+                    <br><br>
+                    <span class="silver">// String dibagi dengan angka juga akan keluar output NaN</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">zd</span>
+                    <span>=</span>
+                    <span class="blue">279</span>
+                    <span>/</span>
+                    <span class="green">"Cigarette"</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="ciga"></span>
+
+                    <br></br>
+                    <span class="silver">// String angka jika dibagi dengan angka juga akan dianggap sebagai angka.</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">ze</span>
+                    <span>=</span>
+                    <span class="blue">279</span>
+                    <span>/</span>
+                    <span class="green">"23"</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="seting"></span>
+                </div>
+            </div>
+
+            <h4>BigInt</h4>
+            <ul>
+                <li>Semua nomor JavaScript disimpan dalam format floating-point 64-bit.</li>
+                <li>
+                    JavaScript BigInt adalah tipe data baru (2020) yang dapat digunakan untuk menyimpan 
+                    nilai bilangan bulat yang terlalu besar untuk diwakili oleh Angka JavaScript biasa.
+                </li>
+            </ul>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="green">987654321098765432101234567890</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="big"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">z</span>
+                    <span>=</span>
+                    <span class="green"><span class="wht">BigInt(</span>"987654321098765432101234567890"</span>);<br>
+                    <span class="green">Output :</span><span class="blue" id="int"></span>
+                </div>
+            </div>
+
+
+            <hr>
+            <h3>JavaScript String</h3>
+
+            <p>Sebuah string (atau string teks) adalah serangkaian karakter seperti "Hello world!".</p>
+            <p>String ditulis dengan tanda kutip, dapat menggunakan tanda kutip tunggal atau ganda.</p>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="silver">// Single</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">world</span>
+                    <span>=</span>
+                    <span class="green">'Hello World!'</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="single"></span>
+
+                    <br><br>
+                    <span class="silver">// Doble</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">world2</span>
+                    <span>=</span>
+                    <span class="green">"Hello World!"</span>;<br>
+                    <span class="green">Output :</span><span class="blue" id="doble"></span>
+                </div>
+            </div>
+
+            <p>Dapat menggunakan tanda kutip di dalam string, asalkan tidak sama dengan string pembungkus.</p>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="silver">// string tunggal di dalam doble</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">world</span>
+                    <span>=</span>
+                    <span class="green">"it's alright"</span>;<br>
+
+                    <br><br>
+                    <span class="silver">// String doble di dalam tunggal</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">world2</span>
+                    <span>=</span>
+                    <span class="green">'He said "He wants to pee"'</span>;<br>
+
+                    <br><br>
+                    <span class="silver">// String tunggal di dalam dobel</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">world3</span>
+                    <span>=</span>
+                    <span class="green">"Boy said 'He wants to poop'"</span>;<br>
+                    <hr>
+                    <span class="green">Output :</span><br><br>
+                    <span id="doblesing"></span>
+                </div>
+            </div>
+
+            <h4>Escape Sequence</h4>
+            <p>
+                JavaScript mendukung escape sequence di string, Escape Sequence merupakan karakter khusus, 
+                seperti enter , tab, kutip dua, dan lain-lain. Berikut escape sequence yang didukung oleh 
+                JavaScript di data string.  
+            </p>
+            <table>
+                <tr>
+                    <th style="width: 30%;">Syintax</th>
+                    <th>Output</th>
+                </tr>
+                <tr>
+                    <td>\n</td>
+                    <td>Enter</td>
+                </tr>
+                <tr>
+                    <td>\t</td>
+                    <td>Tab</td>
+                </tr>
+                <tr>
+                    <td>\'</td>
+                    <td>(') string single</td>
+                </tr>
+                <tr>
+                    <td>\"</td>
+                    <td>(") string doble</td>
+                </tr>
+                <tr>
+                    <td>\\</td>
+                    <td>\</td>
+                </tr>
+            </table>
+
+            <h3>Boolean</h3>
+            <p>Sebuah tipe data yang digunakan untuk merepresentasikan logika <b>True</b> atau <b>False</b>. </p>
+            <p>
+                Bisa digunakan pada statemen pengkondisian, untuk menentukan aksi yang berbeda dan
+                mengatur alur kendali program.
+            </p>
+            <p>
+                Walaupun type data boolean merupakan type data yang paling sedernaha, tapi type data boolean
+                akan bayak digunakan di berbagai fitur pemograman.
+            </p>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">7</span>;
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">y</span>
+                    <span>=</span>
+                    <span class="blue">13</span>;
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">z</span>
+                    <span>=</span>
+                    <span class="blue">22</span>;
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">a</span>
+                    <span>=</span>
+                    <span class="oren">x</span>
+                    <span>==</span>
+                    <span class="oren">z</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span id="bol"></span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">b</span>
+                    <span>=</span>
+                    <span class="oren">z</span>
+                    <span>></span>
+                    <span class="oren">y</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span id="lean"></span>
+                    <br>
+                </div>
+            </div>
+
+            <h3>JavaScript Objects</h3>
+            <p>Objek JavaScript ditulis dengan kurung kurawal {}.</p>
+            <p>Properti objek ditulis sebagai pasangan nama: nilai, dipisahkan dengan koma.</p>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="blue">&lt;script></span>
+                    <div class="mar">
+                        <span class="ungu">const</span>
+                        <span>person</span>
+                        <span>=</span>
+                        {<span>firtsName</span>:"<span class="green">Nopi</span>",
+                        <span>lastName</span>:"<span class="green">Brili</span>",
+                        <span>age</span>:<span class="blue">4</span>,
+                        <span>hairColor</span>:"<span class="green">black</span>"};
+                        <br><br>
+                        
+                            document.<sapn class="oren">getElementById</sapn>("<span class="green">demo</span>").innerHTML = <br>
+                            person.firstName + "<span class="green">is</span>" + person.age +
+                            "<span class="green">yers old.</span>";
+                    </div>
+                    <span class="blue">&lt;/script></span>
+                    <br><br>
+                    <span class="green">Output </span>:
+                    <span id="objec"></span>
+                </div>
+            </div>
+
+            <h3>JavaScript Function</h3>
+
+            <p>Function JavaScript adalah blok kode yang dirancang untuk melakukan tugas tertentu.</p>
+            <p>Function JavaScript dijalankan ketika "sesuatu" memanggilnya.</p>
+
+            <h4>JavaScript Funtion Syintax</h4>
+
+            <p>Function JavaScript didefinisikan dengan kata kunci <span class="red" style="font-family: 'Courier New', Courier, monospace;">Function</span>, diikuti dengan nama, diikuti dengan tanda kurung ().</p>
+            <p>Nama Function dapat berisi huruf, angka, garis bawah, dan tanda dolar (aturan yang sama dengan variabel).</p>
+            <p>
+                Tanda kurung dapat menyertakan nama parameter yang dipisahkan dengan koma: <br>
+                <b>(parameter1, parameter2, ...)</b>
+            </p>
+            <p>Kode yang akan dieksekusi, oleh fungsi, ditempatkan di dalam kurung kurawal: {}</p>
+
+            <div class="exsample">
+                <h4>Syintax</h4>
+                <div class="code">
+                    <span class="blue">&lt;script></span>
+                    <div class="mar">
+                        <span class="ungu">function</span> name(parameter1, parameter2, parameter3) {<br>
+                            <span class="mar" style="color: silver;">// code to be executed</span> <br>
+                        }
+                    </div>
+                    <span class="blue">&lt;/script></span>
+                </div>
+            </div>
+
+            <p>Parameter fungsi tercantum di dalam tanda kurung () dalam definisi fungsi.</p>
+            <p>Argumen fungsi adalah nilai yang diterima oleh fungsi saat dipanggil.</p>
+            <p>Di dalam fungsi, argumen (parameter) berlaku sebagai variabel lokal.</p>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="blue">&lt;script></span>
+                    <div class="mar">
+                        <span class="ungu">function</span>
+                        <span class="oren">kencuss</span>(x1, x2) {
+                            <div class="mar">
+                                <span class="ungu">return</span> x1 * x2;
+                            </div>
+                        }
+                        <br><br>
+                        
+                            document.<sapn class="oren">getElementById</sapn>("<span class="green">demo</span>").innerHTML =
+                            <span class="oren">kencuss</span>(12, 37);
+                    </div>
+                    <span class="blue">&lt;/script></span>
+                    <br><br>
+                    <span class="green">Output </span>:
+                    <span id="funct"></span>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="footer">
+            <p> &copy; Copyright 2023, <b>myusuf</b>.</p>
+        </div>
+
+    </div>
+    <script>
+        let x = 9999999999999999;
+        document.getElementById("demo").innerHTML = x;
+    </script>
+    <script>
+        let xb = 0.2 + 0.1;
+        document.getElementById("deci").innerHTML = xb;
+    </script>
+    <script>
+        let xc = 022;
+        document.getElementById("zero").innerHTML = xc;
+    </script>
+    <script>
+        let xd = 0xff;
+        document.getElementById("zer").innerHTML = xd;
+    </script>
+    <script>
+        let xe = 9752e5;
+        document.getElementById("expo").innerHTML = xe;
+    </script>
+    <script>
+        let xf = 7952e-7;
+        document.getElementById("nen").innerHTML = xf;
+    </script>
+    <script>
+        let xg = 368 / 0;
+        document.getElementById("infi").innerHTML = xg;
+    </script>
+    <script>
+        let xh = -685 / 0;
+        document.getElementById("min").innerHTML = xh;
+    </script>
+    <script>
+        let xi = 0 / 0;
+        document.getElementById("nol").innerHTML = xi;
+    </script>
+    <script>
+        let xj = 279 / "cigarette";
+        document.getElementById("ciga").innerHTML = xj;
+    </script>
+    <script>
+        let xk = 279 / "23";
+        document.getElementById("seting").innerHTML = xk;
+    </script>
+    <script>
+        let xl = 987654321098765432101234567890;
+        document.getElementById("big").innerHTML = xl;
+    </script>
+    <script>
+        let xm = BigInt("987654321098765432101234567890");
+        document.getElementById("int").innerHTML = xm;
+    </script>
+    <script>
+        let xn = "Hello World!"
+        document.getElementById("single").innerHTML = xn;
+    </script>
+    <script>
+        let xo = "Hello World!"
+        document.getElementById("doble").innerHTML = xo;
+    </script>
+    <script>
+        let its = "It's alright";
+        let he = 'He said "He wants to pee"';
+        let boy = "boy said 'He wants to poop'"
+        document.getElementById("doblesing").innerHTML =
+        its + "<br>" +
+        he + "<br>" +
+        boy;
+    </script>
+
+    <script>
+        let aa = 7;
+        let ab = 13;
+        let ac = 22;
+
+        let ad = aa == ac;
+        document.getElementById("bol").innerHTML = ad;
+    </script>
+    <script>
+        let ae = ac > ab;
+        document.getElementById("lean").innerHTML = ae;
+    </script>
+    <script>
+        const person = {firstName:"Nopi", lastName:"Brili", age:4, hairColor:"black"};
+
+        document.getElementById("objec").innerHTML =
+        person.firstName + " " + "is" + " " + person.age + " " + "yers old.";
+    </script>
+
+    <script>
+        function nop(cc, cg) {
+            return cc * cg;
+        }
+
+        document.getElementById("funct").innerHTML = nop(12, 37);
+    </script>
+
+
+
+
+</body>
+
+</html>

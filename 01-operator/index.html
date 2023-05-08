@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navigasi ul li a.hm {
+            border-bottom: solid 3px #04AA6D;
+        }
+    </style>
+    <title>Operator</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>JavaScript</h1>
+        </div>
+
+        <div class="navigasi">
+            <ul>
+                <li><a href="../content/index.html">❮ Content</a></li>
+                <li><a href="index.html" class="hm">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="image" title="From : Ingo Schulz"></div>
+
+        <div class="main">
+
+            <h2>Operator</h2>
+            <p class="by">Ditulis oleh <a href="#">myusuf</a>, pada 24 Januari 2023.</p>
+
+            <p>Operator pada JavaScript adalah sebuah simbol yang digunakan untuk melakukan operasi.</p>
+
+            <h4>Operator JavaScript :</h4>
+
+            <table>
+                <tr>
+                    <th style="width: 30%;">Operator</th>
+                    <th>Type Operator</th>
+                    <th>Jumlah Operand</th>
+                </tr>
+                <tr>
+                    <td>Aritmatika</td>
+                    <td>Binary</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Assignment/penugasan</td>
+                    <td>Binary</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Perbandingan</td>
+                    <td>Binary</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Logical</td>
+                    <td>Binary</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>String</td>
+                    <td>Binary</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Typeof</td>
+                    <td>Unary</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Kondisional / Conditional</td>
+                    <td>Ternary</td>
+                    <td>3</td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <h3>JavaScript Operator Aritmatika</h3>
+
+            <table>
+            
+                <tr>
+                    <th style="width: 30%;">Operator</th>
+                    <th>Desciption</th>
+                </tr>
+                <tr>
+                    <td>+</td>
+                    <td>Penjumlahan</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Pengurangan</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Perkalian</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>Pembagian</td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>Modulus (sisa bagi)</td>
+                </tr>
+                <tr>
+                    <td>**</td>
+                    <td>Exponentiation (Perpangkatan)</td>
+                </tr>
+                <tr>
+                    <td>++</td>
+                    <td>Increment (+1)</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>Decrement (-1)</td>
+                </tr>
+            </table>
+
+
+            <h4>Operator precedence</h4>
+            <p>Urutan operasi aritmatika :</p>
+            
+            <table>
+                <tr>
+                    <th style="width: 8%;">No.</th>
+                    <th style="width: 30%;">Operator</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>( )</td>
+                    <td>Kurung</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>**</td>
+                    <td>Pangkat</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>*</td>
+                    <td>Kali</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>/</td>
+                    <td>Bagi</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>%</td>
+                    <td>Modulus</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>+</td>
+                    <td>Tambah</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>-</td>
+                    <td>Kurang</td>
+                </tr>
+            </table>
+
+            <div class="exsample">
+                <h4>exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">w</span>
+                    <span>=</span>
+                    <span class="blue">4</span>;<br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">8</span>;<br>
+                    <span class="ungu">let</span>
+                    <span class="oren">y</span>
+                    <span>=</span>
+                    <span class="blue">5</span>;<br>
+                    <span class="ungu">let</span>
+                    <span class="oren">z</span>
+                    <span>=</span>
+                    <span class="blue">w</span>
+                    <span>+</span>
+                    <span class="blue">x</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// 12</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">v</span>
+                    <span>=</span>
+                    <span class="blue">y</span>
+                    <span>-</span>
+                    <span class="blue">w</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// 1</span>
+
+                    <br><br>
+                    <span>z</span>
+                    <span>%</span>
+                    <span>y</span>
+                    <span>=</span>
+                    <span class="blue">2</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// Sisa bagi</span>
+                    <br>
+                    <span>z</span>
+                    <span>%</span>
+                    <span>w</span>
+                    <span>=</span>
+                    <span class="blue">0</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// Sisa bagi</span>
+                    
+                    <br><br>
+                    <span>x</span>
+                    <span>**</span>
+                    <span>2</span>
+                    <span>=</span>
+                    <span class="blue">16</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// Pangkat</span>
+                    <br>
+                    <span>y</span>
+                    <span>**</span>
+                    <span>3</span>
+                    <span>=</span>
+                    <span class="blue">125</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// Pangkat</span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">8</span>;<br>
+                    <span>x++;</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">q</span>
+                    <span>=</span>
+                    <span>x</span>; <br>
+                    <span class="green">Output</span> <span>:</span>
+                    <span class="blue" id="run"></span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// x = (+1)</span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">z</span>
+                    <span>=</span>
+                    <span class="blue">12</span>;<br>
+                    <span>z--;</span><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">r</span>
+                    <span>=</span>
+                    <span>z</span>; <br>
+                    <span class="green">Output</span> <span>:</span>
+                    <span class="blue" id="ran"></span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// x = (-1)</span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">s</span>
+                    <span>=</span>
+                    <span class="blue">x</span>
+                    <span>%</span>
+                    <span class="blue">y</span>
+                    <span>-</span>
+                    <span class="blue">v</span>
+                    <span>*</span>
+                    <span class="blue">w</span>
+                    <span>+</span>
+                    <span class="blue">z</span>
+                    <span>/</span>
+                    <span class="blue">3</span>;<br>
+                    <span class="green">Output</span>:
+                    <span id="mod" class="blue"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">s</span>
+                    <span>=</span>
+                    <span class="blue">x</span>
+                    <span>%</span>
+                    (<span class="blue">y</span>
+                    <span>-</span>
+                    <span class="blue">v</span>)
+                    <span>*</span>
+                   (<span class="blue">w</span>
+                    <span>+</span>
+                    <span class="blue">z</span>)
+                    <span>/</span>
+                    <span class="blue">3</span>;<br>
+                    <span class="green">Output</span>:
+                    <span id="mode" class="blue"></span>
+                </div>
+            </div>
+
+            <h4>JavaScript Assignment Operators</h4>
+            <p>Operator penugasan menetapkan nilai ke variabel JavaScript.</p>
+            
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Exsample</th>
+                    <th>Same As</th>
+                </tr>
+                <tr>
+                    <td>=</td>
+                    <td>y = x</td>
+                    <td>y = x</td>
+                </tr>
+                <tr>
+                    <td>+=</td>
+                    <td>x += y</td>
+                    <td>x = x + y</td>
+                </tr>
+                <tr>
+                    <td>-=</td>
+                    <td>x -= y</td>
+                    <td>x = x - y</td>
+                    
+                </tr>
+                <tr>
+                    <td>*=</td>
+                    <td>x *= y</td>
+                    <td>x = x * y</td>
+                </tr>
+                <tr>
+                    <td>/=</td>
+                    <td>x /= y</td>
+                    <td>x = x / y</td>
+                </tr>
+                <tr>
+                    <td>%=</td>
+                    <td>x %= y</td>
+                    <td>x = x % y</td>
+                </tr>
+                <tr>
+                    <td>**=</td>
+                    <td>x **= y</td>
+                    <td>x = x ** y</td>
+                </tr>
+            </table>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">a</span>
+                    <span>=</span>
+                    <span class="blue">12</span>;<br>
+                    <span class="oren">a</span>
+                    <span>+=</span>
+                    <span class="blue">290</span>;<br>
+                    <span class="green">Output</span>:
+                    <span class="oren">a</span>
+                    <span>=</span>
+                    <span id="plus" class="blue"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">b</span>
+                    <span>=</span>
+                    <span class="blue">12</span>;<br>
+                    <span class="oren">b</span>
+                    <span>-=</span>
+                    <span class="blue">290</span>;<br>
+                    <span class="green">Output</span>:
+                    <span class="oren">b</span>
+                    <span>=</span>
+                    <span id="min" class="blue"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">c</span>
+                    <span>=</span>
+                    <span class="blue">12</span>;<br>
+                    <span class="oren">c</span>
+                    <span>*=</span>
+                    <span class="blue">290</span>;<br>
+                    <span class="green">Output</span>:
+                    <span class="oren">c</span>
+                    <span>=</span>
+                    <span id="Kali" class="blue"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">d</span>
+                    <span>=</span>
+                    <span class="blue">183</span>;<br>
+                    <span class="oren">d</span>
+                    <span>/=</span>
+                    <span class="blue">12</span>;<br>
+                    <span class="green">Output</span>:
+                    <span class="oren">d</span>
+                    <span>=</span>
+                    <span id="bagi" class="blue"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">e</span>
+                    <span>=</span>
+                    <span class="blue">157</span>;<br>
+                    <span class="oren">e</span>
+                    <span>%=</span>
+                    <span class="blue">14</span>;<br>
+                    <span class="green">Output</span>:
+                    <span class="oren">e</span>
+                    <span>=</span>
+                    <span id="modul" class="blue"></span>
+
+                    <br><br>
+                    <span class="ungu">let</span>
+                    <span class="oren">f</span>
+                    <span>=</span>
+                    <span class="blue">12</span>;<br>
+                    <span class="oren">f</span>
+                    <span>**=</span>
+                    <span class="blue">7</span>;<br>
+                    <span class="green">Output</span>:
+                    <span class="oren">f</span>
+                    <span>=</span>
+                    <span id="pangkat" class="blue"></span>
+                </div>
+            </div>
+
+
+            <h3>Operators Comparison</h3>
+            <p>Hasil akhir mengasilkan <b>Bolean</b> true or false.</p>
+
+            <table>
+                <tr>
+                    <th style="width: 30%;">Operator</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>==</td>
+                    <td>Sama dengan</td>
+                </tr>
+                <tr>
+                    <td>!=</td>
+                    <td>Tidak sama dengan</td>
+                </tr>
+                <tr>
+                    <td>===</td>
+                    <td>Strict sama dengan</td>
+                </tr>
+                <tr>
+                    <td>!==</td>
+                    <td>Strict tidak sama dengan</td>
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td>Lebih besar dari</td>
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td>Lebih kecil dari</td>
+                </tr>
+                <tr>
+                    <td>&lt;=</td>
+                    <td>Lebih besar sama dengan</td>
+                </tr>
+                <tr>
+                    <td>&gt;=</td>
+                    <td>Lebih kecil sama dengan</td>
+                </tr>
+            </table>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">var</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">7</span>;
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>==</span>
+                    <span class="blue">7</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>==</span>
+                    "<span class="green">7</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>==</span>
+                    <span class="blue">578</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>!=</span>
+                    <span class="blue">7</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>!=</span>
+                    "<span class="green">7</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>!=</span>
+                    <span class="blue">183</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>===</span>
+                    <span class="blue">7</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>===</span>
+                    "<span class="green">7</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>===</span>
+                    <span class="blue">94</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>!==</span>
+                    <span class="blue">72</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>!==</span>
+                    <span class="blue">7</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>!==</span>
+                    "<span class="green">7</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>&gt;</span>
+                    <span class="blue">7</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&gt;</span>
+                    <span class="blue">10</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&gt;</span>
+                    "<span class="green">826</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>&lt;</span>
+                    <span class="blue">7</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&lt;</span>
+                    <span class="blue">3</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&lt;</span>
+                    "<span class="green">68</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>&gt;=</span>
+                    <span class="blue">7</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&gt;=</span>
+                    <span class="blue">49</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&gt;=</span>
+                    "<span class="green">6</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+
+                    <br><br>
+                    <span class="oren">x</span>
+                    <span>&lt;=</span>
+                    <span class="blue">1</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&lt;=</span>
+                    <span class="blue">5</span>;
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// true</span>
+                    <br>
+                    <span class="oren">x</span>
+                    <span>&lt;=</span>
+                    "<span class="green">68</span>";
+                    <span class="mar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="silver">// false</span>
+                </div>
+            </div>
+
+            <h3>Logical Operator</h3>
+            <p>Logical operators are used to determine the logic between variables or values.</p>
+            <p>Hasil akhir mengasilkan Bolean true or false.</p>
+
+            <table>
+                <tr>
+                    <th style="width: 30%;">Operator</th>
+                    <th>Description</th>
+                    <th>True</th>
+                </tr>
+                <tr>
+                    <td>&&</td>
+                    <td>AND</td>
+                    <td>Harus keduanya benar</td>
+                </tr>
+                <tr>
+                    <td>||</td>
+                    <td>OR</td>
+                    <td>Salah satunya benar</td>
+                </tr>
+                <tr>
+                    <td>!</td>
+                    <td>NOT</td>
+                    <td>Kebalikan dari hasil Boolean</td>
+                </tr>
+            </table>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">18</span>;
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">y</span>
+                    <span>=</span>
+                    <span class="blue">23</span>;
+
+                    <br><br>
+                    (<span class="oren">x</span>
+                    <span>%</span>
+                    <span class="blue">2</span>
+                    <span>==</span>
+                    <span class="blue">0</span>)
+                    <span>&&</span>
+                    (<span class="oren">y</span>
+                    <span>%</span>
+                    <span class="blue">2</span>
+                    <span>==</span>
+                    <span class="blue">1</span>);
+                    <br>
+                    <span class="green">Output</span>:
+                    <span id="and"></span>
+
+                    <br><br>
+                    (<span class="oren">x</span>
+                    <span>/</span>
+                    <span class="oren">y</span>
+                    <span>==</span>
+                    <span class="blue">0</span>)
+                    <span>||</span>
+                    (<span class="oren">y</span>
+                    <span>+</span>
+                    <span class="oren">x</span>
+                    <span>==</span>
+                    <span class="blue">41</span>);
+                    <br>
+                    <span class="green">Output</span>:
+                    <span id="or"></span>
+
+                    <br><br>
+                    <span>!</span>
+                    (<span class="oren">x</span>
+                    <span>==</span>
+                    <span class="oren">y</span>);
+                    <br>
+                    <span class="green">Output</span>:
+                    <span id="not"></span>
+                </div>
+            </div>
+            
+
+            <h3>JavaScript String</h3>
+            <p>Operator <b>+</b> juga dapat digunakan untuk menambahkan (menggabungkan) string.</p>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">texta</span>
+                    <span>=</span>
+                    "<span class="green">Shut the fuck up</span>";
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">textb</span>
+                    <span>=</span>
+                    "<span class="green">I don't give a fuck</span>";
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">textc</span>
+                    <span>=</span>
+                    <span class="oren">texta</span>
+                    <span>+</span>
+                    "<span class="green">,</span>"
+                    <span>+</span>
+                    <span>" "</span>
+                    <span>+</span>
+                    <span class="oren">textb</span>
+                    <span>+</span>
+                    "<span class="green">.</span>";
+                    <br>
+                    <span class="green">Output</span>:
+                    <span id="text"></span>
+                </div>
+            </div>
+
+            <h4>String and Number</h4>
+
+            <div class="exsample">
+                <h4>Syintax</h4>
+                <div class="code">
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">19</span>
+                    <span>+</span>
+                    <span class="green">"7"</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// 197</span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">19</span>
+                    <span>+</span>
+                    <span class="green">"Honda"</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// 19Honda</span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="green">"12"</span>
+                    <span>+</span>
+                    <span class="green">"Honda"</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// 12Honda</span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="blue">10</span>
+                    <span>+</span>
+                    <span class="blue">7</span>
+                    <span>+</span>
+                    <span class="green">"Honda"</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// 17Honda</span>
+                    <br>
+                    <span class="ungu">let</span>
+                    <span class="oren">x</span>
+                    <span>=</span>
+                    <span class="green">"Honda"</span>
+                    <span>+</span>
+                    <span class="blue">11</span>
+                    <span>+</span>
+                    <span class="blue">3</span>;
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span style="margin-left: 30px;" class="silver">// Honda113</span>
+                    <br>
+                    <span class="silver">(karena awalnya string, maka yang di belakang dianggap string.)</span>
+                </div>
+                <p><b>Note</b> : Saat menggunakan angka dan string, JS akan memperlakukan angka sebagai string.</p>
+            </div>
+
+
+            <h3>Typeof</h3>
+
+            <p>Untuk mengetahui tipe data apa yang di dalamnya.</p>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+                    <span class="ungu">typeof</span>
+                    <span class="blue">1962</span>;<br>
+                    <span class="ungu">typeof</span>
+                    "<span class="green">kencuss</span>";<br>
+                    <span class="ungu">typeof</span>
+                    <span>NaN</span>;<br>
+                    <span class="ungu">typeof</span>
+                    <span>true</span>;<br>
+                    <span class="ungu">typeof</span>
+                   [<span class="blue">1</span>,<span class="blue">5</span>,<span class="blue">9</span>];<br>
+                    <span class="ungu">typeof</span>
+                    {<span>name:'<sapan class="green">kencuss</sapan>', age:<span class="blue">20</span></span>};
+                    <span class="ungu">typeof</span>
+                    <span>new Date()</span>;<br>
+                    <span class="ungu">typeof</span>
+                    <span class="ungu">function</span>() {};<br>
+                    <span class="ungu">typeof</span>
+                    <span>myCar</span>;<br>
+                    <span class="ungu">typeof</span>
+                    <span class="ungu">null</span>;
+
+                    <br><br>
+                    <span id="tipe"></span>
+                </div>
+            </div>
+
+            <h3>JavaScript Conditional</h3>
+            <p>JavaScript juga berisi operator kondisional yang memberikan nilai ke variabel berdasarkan beberapa kondisi.</p>
+
+            <h4>Syintax</h4>
+            <div class="code" style="border: 1px solid silver; width: 920px;">
+                variablename = (condition) ? value1:value2 <br>
+                <span class="ungu">let</span>
+                    <span>votable</span>
+                    <span>=</span>
+                    <span>(age &lt; <span class="blue">18</span>)</span>
+                    <span>?</span>
+                    "<span class="green">Too young</span>"
+                    <span>:</span>
+                    "<span class="green">Old enought</span>";
+            </div>
+
+            <div class="exsample">
+                <h4>Exsample</h4>
+                <div class="code">
+
+                    <span class="blue">&lt;body> </span>
+                    <br><br>
+                    <div style="margin-left: 20px;">
+                        <span class="blue">&lt;p></span>Input your age and click the button :<span class="blue">&lt;/p></span><br><br>
+
+                        <span class="blue">&lt;input</span> <span class="oren">id</span>="<span class="green">age</span>" 
+                        <span class="ungu">value</span>="<sapan class="green">18</sapan>"<span class="blue">/></span><br>
+
+                        <span class="blue">&lt;button</span> <sapan class="oren">onclick</sapan>="<sapan class="oren">conditional</sapan>()"<sapan class="blue">></sapan>
+                        Try it
+                        <span class="blue">&lt;/button></span><br>
+
+                        <span class="blue">&lt;p></span>
+                        <span class="oren">id</span>="<span class="green">demo</span>"<sapn class="blue">></sapn><sapan class="blue">&lt;/p></sapan>
+                        <br><br>
+
+                        <span class="blue">&lt;script></span><br>
+                        <span class="ungu">function</span> conditional(){<br>
+                            <div style="margin-left: 20px;">
+                            <span class="ungu">let</span> <span class="oren">age</span> =
+                            document.<span class="oren">getElementById</span>("<span class="green">age</span>").value;<br>
+                            <span class="ungu">let</span> votable = (age &lt; <span class="blue">18</span>) ?
+                            "<span class="green">Ijeh bayi</span>":"<span class="green">Tuek</span>";<br>
+                            document.<sapn class="oren">getElementById</sapn>("<span class="green">demo</span>").innerHTML = 
+                            votable + "<span class="green">Cok!</span>";<br>
+                        }
+                        </div>
+                        <span class="blue">&lt;/script></span>
+                    
+                    </div>
+                    <br>
+                    <span class="blue">&lt;/body></span>
+                    
+                    
+                </div>
+                <p><b>Link :</b> <a href="https://www.w3schools.com/js/js_comparisons.asp" target="_blank">https://www.w3schools.com/js/js_comparisons.asp</a></p>
+            </div>
+
+            <p>Input your age and click the button :</p>
+
+            <input id="age" style="margin-left: 20px;">
+            <button onclick="tional()">Try it</button>
+            <p id="dem"></p>
+
+
+        </div>
+
+        <div class="footer">
+            <p> &copy; Copyright 2023, <b>myusuf</b>.</p>
+        </div>
+        
+    </div>
+
+
+    <script>
+        x = 8;
+        x++;
+        q = x;
+        document.getElementById("run").innerHTML =   q;
+    </script>
+
+    <script>
+        z = 12;
+        z--;
+        r = z;
+        document.getElementById("ran").innerHTML =   r;
+    </script>
+    <script>
+        let w = 4;
+        let x = 8;
+        let y = 5;
+        let z = w + x;
+        let v = y - w;
+        let s = x % y - v * w + z / 3;
+        document.getElementById("mod").innerHTML = s;
+    </script>
+    <script>
+        let t = x % (y - v) * (w + z) / 3;
+        document.getElementById("mode").innerHTML = t;
+    </script>
+
+    <script>
+        var a = 12;
+        a += 290;
+        document.getElementById("plus").innerHTML = a;
+    </script>
+    <script>
+        var b = 12;
+        b -= 290;
+        document.getElementById("min").innerHTML = b;
+    </script>
+    <script>
+        var c = 12;
+        c *= 290;
+        document.getElementById("kali").innerHTML = c;
+    </script>
+    <script>
+        var d = 183;
+        d /= 12;
+        document.getElementById("bagi").innerHTML = d;
+    </script>
+    <script>
+        var e = 157;
+        e %= 14;
+        document.getElementById("modul").innerHTML = e;
+    </script>
+    <script>
+        var f = 12;
+        f **= 7;
+        document.getElementById("pangkat").innerHTML = f;
+    </script>
+    <script>
+        let aa = 18;
+        let ab = 23;
+
+        let ac = (aa % 2 == 0) && (ab % 2 == 1);
+        document.getElementById("and").innerHTML = ac;
+    </script>
+    <script>
+        let ad = (aa / ab == 0) || (ab % 2 == 1);
+        document.getElementById("or").innerHTML = ad;
+    </script>
+    <script>
+        let ae = !(aa == ab);
+        document.getElementById("not").innerHTML = ae;
+    </script>
+    <script>
+        let texta = "Shut the fuck up";
+        let textb = "I don't give a fuck";
+
+        let textc = texta + "," + " " + textb + ".";
+        document.getElementById("text").innerHTML = textc;
+    </script>
+    <script>
+        document.getElementById("tipe").innerHTML = 
+        typeof 1962+ "<br>" +
+        typeof "kencuss" + "<br>" +
+        typeof NaN + "<br>" +
+        typeof true + "<br>" +
+        typeof [1, 5, 9] + "<br>" +
+        typeof {name:'kencuss', age:20} + "<br>" +
+        typeof new Date() + "<br>" +
+        typeof function () {} + "<br>" +
+        typeof myCar + "<br>" +
+        typeof null;
+    </script>
+
+    <script>
+        function tional(){
+            let age = document.getElementById("age").value;
+            let votable = (age < 18) ? "Ijeh bayi":"Tuek";
+            document.getElementById("dem").innerHTML = votable + " Cok!";
+        } 
+    </script>
+    
+    
+</body>
+</html>
