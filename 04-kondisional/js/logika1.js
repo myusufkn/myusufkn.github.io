@@ -1,4 +1,4 @@
-/*
+
 var s = "";
 for( var l = 0; l < 10; l++ ){
     for( var d = 0; d < 10; d++){ //jumlah bintang pada deret sesuai yang diinputkan
@@ -48,7 +48,7 @@ for( var l = 0; l <= 5; l++ ){
     s += "\n"
 }
 console.log(s);
-*/
+
 
 
 var s = "";

@@ -2,7 +2,7 @@
 
 
 /*
-    var angkot = 1;
+    let angkot = 1;
     while(angkot <= 10) {
         console.log("Angkot No." + angkot + " " + "beroperasi dengan buruk.");
 
@@ -11,9 +11,9 @@
 */
 
 
-var jmlAngkot = 10;
-var angkotBeroperasi = 6;
-var noAngkot = 1;
+let jmlAngkot = 10;
+let angkotBeroperasi = 6;
+let noAngkot = 1;
 
 while(noAngkot <= angkotBeroperasi){
     console.log("Angkot No. " + noAngkot + " beroperasi dengan baik.");
