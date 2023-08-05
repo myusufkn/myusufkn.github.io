@@ -897,9 +897,9 @@
                             <span class="ungu">let</span> <span class="oren">age</span> =
                             document.<span class="oren">getElementById</span>("<span class="green">age</span>").value;<br>
                             <span class="ungu">let</span> votable = (age &lt; <span class="blue">18</span>) ?
-                            "<span class="green">Ijeh bayi</span>":"<span class="green">Tuek</span>";<br>
+                            "<span class="green">Too young</span>":"<span class="green">Old enought</span>";<br>
                             document.<sapn class="oren">getElementById</sapn>("<span class="green">demo</span>").innerHTML = 
-                            votable + "<span class="green">Cok!</span>";<br>
+                            votable;<br>
                         }
                         </div>
                         <span class="blue">&lt;/script></span>
@@ -1025,8 +1025,8 @@
     <script>
         function tional(){
             let age = document.getElementById("age").value;
-            let votable = (age < 18) ? "Ijeh bayi":"Tuek";
-            document.getElementById("dem").innerHTML = votable + " Cok!";
+            let votable = (age < 18) ? "Too young":"Old enought";
+            document.getElementById("dem").innerHTML = votable;
         } 
     </script>
     

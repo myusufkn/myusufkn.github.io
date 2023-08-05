@@ -43,6 +43,7 @@ h5 {
 .red {color: rgb(255, 97, 97);}
 .mar { margin-left: 20px;}
 b { font-weight: bold;}
+
 .navigasi ul {
     margin: 0 20px 15px;
 }
@@ -57,6 +58,14 @@ b { font-weight: bold;}
 }
 .navigasi ul li a:hover {
     border-bottom: solid 3px #04AA6D;
+}
+
+.main ul.decimal li a{
+    color: white;
+    text-decoration: none;
+}
+.main ul.decimal li a:hover {
+    font-weight: bold;
 }
 
 .image {
