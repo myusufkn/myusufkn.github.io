@@ -3,8 +3,8 @@
 - type: github
   icon: "fab fa-github"
 
-- type: linkedin
-  icon: "fa-brands fa-linkedin"
+- type: LinkedIn
+  icon: "fab fa-LinkedIn"
 
 - type: email
   icon: "fas fa-envelope"
