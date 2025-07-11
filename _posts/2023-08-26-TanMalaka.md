@@ -1,15 +1,19 @@
 ---
-layout: default
-tittle: Blog
+layout: post
+title: "Tan Malaka"
+date: 2023-08-26
+categories: [Refleksi]
+tags: [Tan Malaka, sejarah, pemikiran]
 ---
 
-<h1>Tan Malaka</h1>
+
+<!-- <h1>Tan Malaka</h1> -->
 
 <p>Saya tidak pernah tertarik untuk mengidolakan seseorang, terlalu banyak nama besar yang dibingkai, terlalu banyak pujian yang kehilangan makna karena diulang-ulang. Mungkin karena saya tidak tumbuh di tengah euforia sosial, yang  mengidolakan artis-artis besar.</p>
 
 Sampai saya mengenal Tan Malaka.
 
-<p>Namanya begitu asing untuk seorang pahlawan nasional, namanya tidak pernah disebut dalam pelajaran sejarah di sekolah. Saya tertarik karena ia berbeda sosok yang hidup dalam kesendirian dan pelarian, seorang pahlawan yang bukan hanya ditinggalkan, tapi sempat dianggap berbahaya oleh bangsanya sendiri.
+<p>Namanya begitu asing untuk seorang pahlawan nasional, namanya tidak pernah disebut dalam pelajaran sejarah di sekolah. Saya tertarik karena ia berbeda, sosok yang hidup dalam kesendirian dan pelarian, seorang pahlawan yang bukan hanya ditinggalkan, tapi sempat dianggap berbahaya oleh bangsanya sendiri.
 Nama dan pemikirannya pernah diasingkan. Semua bukunya sempat dilarang pada masa Orde Baru. Bahkan rakyat yang memiliki karyanya bisa dicurigai, ditangkap, dan dicap "kiri". Seolah-olah negara takut jika Tan benar-benar bangkit dari kuburnya — tidak dalam bentuk jasad, tapi dalam bentuk gagasan.</p>
 
 Itulah yang membuat saya tertarik:
@@ -17,11 +21,13 @@ Itulah yang membuat saya tertarik:
 <p>Mengapa negara begitu takut pada seseorang yang telah lama mati?
 Rasa penasaran itu tumbuh, pelan-pelan. Akhirnya, saya mencoba untuk memahaminya, Dari Penjara ke Penjara. Saya membaca tanpa ekspektasi, hanya ingin mengenalnya dari tulisannya sendiri — tanpa tafsir penguasa, tanpa penilaian orang lain.</p>
 
-<p>Yang saya temukan bukan seorang pemberontak. Bukan juga seorang ideolog fanatik. Tapi seorang pecinta bangsa yang tulus. Seorang intelektual yang tidak pernah lelah berpikir — bahkan saat di penjara, bahkan saat dikhianati. Ia tidak meminta apa pun. Tidak kekuasaan. Tidak popularitas. Ia hanya ingin bangsanya bangkit, berpikir, dan berdiri sendiri. Bukan sekadar merdeka secara simbol, tapi merdeka secara mental.</p>
+<p>Yang saya temukan bukan seorang pemberontak. Bukan juga seorang ideolog fanatik. Tapi seorang pecinta bangsa yang tulus. Seorang intelektual yang tidak pernah lelah berpikir — bahkan saat di penjara, bahkan saat dikhianati. Ia tidak meminta apa pun tidak kekuasaan tidak pula popularitas. Ia hanya ingin bangsanya bangkit, berpikir, dan berdiri sendiri. Bukan sekadar merdeka secara simbol, tapi merdeka secara mental.</p>
 
 Namun seperti biasa,yang paling mencintai, seringkali yang paling disingkirkan.
 
-<p>Saya tidak sedang mengkultuskan Tan Malaka. Tidak juga ingin meniru hidupnya. Tapi saya belajar satu hal: bahwa kesunyian kadang adalah harga dari kejujuran berpikir. Dan jika suatu saat saya gagal karena bertahan pada prinsip sendiri, saya akan menerima itu. Karena saya tahu, saya gagal karena pilihan saya sendiri — bukan karena memilih jalan orang lain.</p>
+<p>Saya tidak sedang mengkultuskan Tan Malaka. Tidak juga ingin meniru hidupnya, tapi saya belajar satu hal: Barang siapa menghendaki kemerdekaan buat umum, maka ia harus sedia dan ikhlas untuk menderita kehilangan kemerdekaan diri sendiri. Kesunyian kadang adalah harga dari kejujuran berpikir dan jika suatu saat saya gagal karena bertahan pada prinsip sendiri, saya akan menerima itu. Karena saya tahu, saya gagal karena pilihan saya sendiri.</p>
+<br>
+<br>
 <br>
 <br>
 Tulisan ini adalah awal.
