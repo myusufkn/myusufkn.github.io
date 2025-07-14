@@ -4,8 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Nama saya Muhammad Yusuf, di blog ini saya akan mendokumentasikan proses belajar saya. Ini adalah tempat saya menulis dan tumbuh, dengan hal-hal sederhana. Saya percaya bahwa ada beberapa hal yang harus dikerjakan dalam hening, kadang dengan keras kepala, kadang dengan diam yang panjang.
+<b>Saya Muhammad Yusuf.</b>
 
-Blog ini adalah ladang kecil saya. Tempat saya menanam proses belajar di dunia IT, dari baris perintah yang rumit hingga perlahan menjadi pemahaman. Tapi blog ini bukan hanya soal teknologi. Saya juga menuliskan pemikiran yang saya temukan dari buku-buku yang saya baca — dari sains, logika Socrates hingga tafsir Al-Qur’an. Saya menulis agar saya bisa kembali dan melihat seberapa jauh saya telah berjalan. Disinilah saya merekam jalan hidup yang saya pilih sendiri, versi yang tidak rapi, tapi jujur. 
+Blog ini adalah ruang untuk mendokumentasikan proses belajar, tempat saya tumbuh. Ini ladang kecil saya, tempat menanam ide dan pertanyaan, dari praktik teknologi hingga bacaan yang saya lahap — mulai dari sains, filsafat, hingga perenungan spiritual.
+
+Saya menulis agar kelak bisa kembali, menelusuri jejak yang pernah saya tinggalkan — sebagai bahan evaluasi. Versi yang belum rapi, tapi jujur — kadang dalam diam yang panjang, kadang dengan keras kepala.
 
 Selamat datang.

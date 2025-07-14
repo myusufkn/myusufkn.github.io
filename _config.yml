@@ -14,9 +14,16 @@ timezone: Asia/Jakarta
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
+#author:
+#  name: "Default Author"  # Fallback jika tidak ditentukan di post
+#  url: "https://www.linkedin.com/in/myusufkn" 
+
 title: myusufkn # the main title
 
 tagline: Masyarakat baru # it will display as the subtitle
+
+
+
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -34,7 +41,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: myusufkn
+  name: Muhammad Yusuf
   email: yusufmuhammad8899@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -99,6 +106,16 @@ cdn: "" #https://chirpy-img.netlify.app
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/profile.jpeg" # string, local or CORS resources
+
+# ========== Favicons ========== #
+favicon:
+  apple_touch_icon: /assets/img/favicons/apple-touch-icon.png
+  icon_32x32: /assets/img/favicons/favicon-32x32.png
+  icon_16x16: /assets/img/favicons/favicon-16x16.png
+  manifest: /assets/img/favicons/site.webmanifest
+
+pwa:
+  manifest: assets/img/favicons/site.webmanifest
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
