@@ -2,6 +2,8 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+title: "Tentang saya"
+
 ---
 
 <b>Saya Muhammad Yusuf.</b>
