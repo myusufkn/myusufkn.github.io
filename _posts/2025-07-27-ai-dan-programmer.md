@@ -2,9 +2,10 @@
 layout: post
 title: "AI dan Programmer"
 date: 2025-07-27
-categories: [IT]
+categories: [Teknologi]
 tags: [IBM, Hacktiv8, AI]
 slug: "ai-dan-programmer" #custum url, harus menggunakan lowcase
+permalink: /post/:categories/:slug
 ---
 
 

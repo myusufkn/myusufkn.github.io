@@ -12,13 +12,28 @@ layout: page
     <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
 
+  <!-- Menambahkan deskripsi categories -->
+  {% case page.title %} {% when "Fraktur Pemikiran" %}
+  <p>
+    Tulisan tentang pemikiran, tokoh besar, dan kesinambungan gagasan dengan
+    penulis.
+  </p>
+  {% when "Eksistensial" %}
+  <p>Catatan pribadi penulis.</p>
+  {% when "Teknologi" %}
+  <p>IT, coding, dan perkembangan teknologi terkini.</p>
+  {% when "Books" %}
+  <p>Ulasan buku dan insight utama dari bacaan saya.</p>
+  {% endcase %}
+
   <ul class="content ps-0">
     {% for post in page.posts %}
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="dash flex-grow-1"></span>
-        {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
-      </li>
+    <li class="d-flex justify-content-between px-md-3">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="dash flex-grow-1"></span>
+      {% include datetime.html date=post.date class='text-muted small
+      text-nowrap' lang=lang %}
+    </li>
     {% endfor %}
   </ul>
 </div>
