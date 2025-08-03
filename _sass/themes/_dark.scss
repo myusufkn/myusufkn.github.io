@@ -4,7 +4,7 @@
   /* Framework color */
   --main-bg: #0d1117;
   --mask-bg: rgb(68 69 70);
-  --main-border-color: rgb(44 45 45);
+  --main-border-color: #3d444d;
 
   /* Common color */
   --text-color: rgb(175 176 177);
@@ -38,7 +38,7 @@
   --sidebar-border-color: #292929;
   --sidebar-muted-color: #868686;
   --sidebar-active-color: rgb(255 255 255 / 95%);
-  --sidebar-hover-bg: #1f2631;
+  --sidebar-hover-bg: #151b23;
   --sidebar-btn-bg: #232328;
   --sidebar-btn-color: #787878;
   --avatar-border-color: rgb(206 206 206 / 90%);
@@ -123,7 +123,7 @@
 
   .categories {
     .card-header {
-      background-color: var(--card-header-bg);
+      background-color: #151b23;
     }
 
     .list-group-item {
