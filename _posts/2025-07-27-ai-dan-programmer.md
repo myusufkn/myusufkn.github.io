@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI dan Programmer"
+# description: "Refleksi perkembangan AI dan dampaknya terhadap profesi programmer."
 date: 2025-07-27
 categories: [Teknologi]
 tags: [IBM, Hacktiv8, AI]

@@ -124,6 +124,19 @@ social_preview_image: # string, local or CORS resources
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+collections:
+  posts:
+    output: true
+
+search:
+  collections:
+    - posts
+
+include:
+  - assets/js/data/search.json
+
+
+
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
@@ -234,6 +247,11 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
 
 jekyll-archives:
   enabled: [categories, tags]
