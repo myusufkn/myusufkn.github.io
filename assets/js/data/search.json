@@ -10,7 +10,7 @@ layout: null
       "date": "{{ post.date }}",
       "categories": {{ post.categories | join: ', ' | jsonify }},
       "tags": {{ post.tags | join: ', ' | jsonify }},
-      "content": {% include post-description.html json=true %}
+      "content": {{ post.content | strip_html | strip_newlines | truncate: 160 | jsonify }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
