@@ -8,6 +8,8 @@ slug: "jatuh-cinta-dengan-buku" #custum url
 permalink: /post/book-review/:slug
 ---
 
+![Desktop View](../assets/img/pare/rain-book.jpeg){: width="200" .w-20 .left} 
+
 Setelah lulus dari SMK, saya ingin melanjutkan pendidikan. Namun, keterbatasan biaya dan keengganan untuk membebani orang tua membuat saya mencari beasiswa yang bisa menanggung biaya hidup dan kuliah sekaligus. Sayangnya, jenis beasiswa seperti itu jarang ditemukan di Indonesia. Maka, saya mulai melirik peluang beasiswa luar negeri. Karena kemampuan bahasa Inggris masih terbatas, saya memutuskan untuk mengambil kursus di Kampung Inggris, Pare, selama enam bulan.
 
 Untuk pertama kalinya dalam hidup, saya merantau. Di sana, saya bertemu teman-teman dari berbagai daerah, suku, dan budaya. Saya dikenal sebagai pribadi pendiam dan dingin, karena itu, teman-teman menjuluki “robot”, orang yang tidak pernah tersenyum.  Mungkin karena saat mereka bersenda gurau, saya hanya duduk di pojok, tak tersenyum, hanya mengamati. Tapi di balik sikap itu, saya lebih suka mengamati sebelum bertindak, mencoba memahami karakter orang lain dari kejauhan, agar dapat menyesuaikan.
@@ -20,6 +22,12 @@ Rasa penasaran perlahan tumbuh menjadi minat. Saya mulai bertanya tentang buku-b
 
 Dari buku ini juga saya belajar cara membangun dan menjaga relasi yang sudah ada. Sudut pandang saya tentang kesuksesan berubah dan membuat saya belajar, barangkali ketika memiliki cita-cita yang besar harus diikuti dengan niat dan mental yang jernih. Sebagaimana *Eric Barker* menjelaskan tentang mental baja prajurit *Navy SEAL*, ketangguhan mental, yang ternyata bukanlah sifat bawaan, melainkan serangkaian keterampilan mental yang bisa dilatih.
 
+![Desktop View](../assets/img/pare/sore-membaca.jpeg){: width="472" height="189" }
+_Setiap sore membaca dengan tutor saya_
+
 *Mendaki Tangga Yang Salah*, menjadi buku pertama yang saya lahab hingga selesai, dan membuat saya ketagihan untuk membaca buku yang lain. Setiap sore saya habiskan untuk membaca dengan tutor saya. Malamnya saya lanjutkan sebelum tidur, tak jarang saya harus begadang karena ingin menyelesaikan bab yang terasa menggantung. Kebiasaan itu menular, teman-teman yang semula asing dengan buku, mulai tertarik membaca. Setiap malam minggu, kami mengadakan diskusi terbuka, berbagi cerita dari buku yang sedang dibaca, saling bertanya dan menjawab. Di sinilah saya benar-benar jatuh cinta dengan buku. 
+
+![Desktop View](../assets/img/pare/diskusi.jpeg){: width="472" height="189" }
+_Diskusi malam minggu dengan teman-teman_
 
 Di sana, saya tidak hanya belajar bahasa Inggris. Saya belajar tentang perbedaan, tentang budaya, dan yang terpenting, saya belajar mencintai sesuatu yang dulu saya benci — buku. Sekembalinya dari Pare, saya membawa satu kotak penuh buku sebagai oleh-oleh, bukan hanya untuk dibaca, tetapi sebagai pengingat akan sebuah perjalanan: dari ketidaksukaan, menuju kecintaan yang dalam.
