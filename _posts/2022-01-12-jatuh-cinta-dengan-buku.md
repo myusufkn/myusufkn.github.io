@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jatuh Cinta Dengan Buku"
-date: 2025-01-10
+date: 2022-01-12
 categories: [Book Review]
 tags: [Reflektif, Eric Barker, Mendaki Tangga yang Salah, book]
 slug: "jatuh-cinta-dengan-buku" #custum url
