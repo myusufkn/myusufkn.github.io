@@ -7,7 +7,7 @@ tags: [Reflektif, Eric Barker, Mendaki Tangga yang Salah, book]
 slug: "jatuh-cinta-dengan-buku" #custum url
 permalink: /post/book-review/:slug
 ---
-![Desktop View](https://res.cloudinary.com/dmfs1p3kn/image/upload/v1755394957/books-bg_fbm5jf.jpg){: width="272" .w-20 .left }
+![Desktop View](https://res.cloudinary.com/dmfs1p3kn/image/upload/v1755394957/books-bg_fbm5jf.jpg){: width="250" .w-20 .left }
 <!-- File from cloudinary -->
 
 Jika ada yang bilang buku bisa mengubah hidup, dulu aku akan menertawakannya. Sampai akhirnya, aku merantau. Ketika itu aku masih beranggapan bahwa pendidikan tidak terlalu penting. Setelah lulus sekolah, aku berencana langsung bekerja di bidang IT, yang sudah lama menarik perhatianku. Berhubung di dunia IT harus bisa bahasa Inggris dan merasa kemampuan bahasa Inggris masih terbatas, dengan terpaksa aku harus mengambil kursus di Kampung Inggris, Pare.
